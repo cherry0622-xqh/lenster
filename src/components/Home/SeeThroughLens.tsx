@@ -51,7 +51,7 @@ const SeeThroughLens = () => {
   return (
     <Menu as="div" className="relative">
       <Menu.Button className="rounded-md hover:bg-gray-300 p-1 hover:bg-opacity-20">
-        <span className="flex space-x-1 items-center text-sm">
+        <span className="flex pl-1 space-x-1 items-center text-sm">
           <img
             src={getAvatar(profile)}
             loading="lazy"
