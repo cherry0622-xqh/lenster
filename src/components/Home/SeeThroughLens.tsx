@@ -55,6 +55,8 @@ const SeeThroughLens = () => {
           <img
             src={getAvatar(profile)}
             loading="lazy"
+            width={20}
+            height={20}
             className="bg-gray-200 w-5 h-5 rounded-full border dark:border-gray-700/80"
             alt={profile?.handle}
           />
@@ -118,7 +120,7 @@ const SeeThroughLens = () => {
                     className={({ active }) =>
                       clsx(
                         { 'dropdown-active': active },
-                        'flex rounded-lg overflow-hidden gap-1 space-x-1 items-center cursor-pointer p-1'
+                        'rounded-lg overflow-hidden gap-1 space-x-1 cursor-pointer p-1'
                       )
                     }
                     key={profile?.handle}
